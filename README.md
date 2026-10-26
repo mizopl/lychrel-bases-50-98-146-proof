@@ -1,5 +1,8 @@
 # Mechanical Template-Closure Proofs of Lychrel Numbers in Bases $b = 50$, $b = 98$, and $b = 146$ via Modular Carry-Wire Seam Surgery
 
+> **🌟 Part of the [`mizopl/we-star` (`We*`)](https://github.com/mizopl/we-star) Autonomous Scientific Discovery Project:**
+> This standalone verification repository is one of 39 machine-verified packages produced by [**`mizopl/we-star`** (`We* = human + AI + autonomous 3-skeptic verification loop`)](https://github.com/mizopl/we-star) on a single 16 GB Apple M1 laptop. Visit [**`github.com/mizopl/we-star`**](https://github.com/mizopl/we-star) for the complete architecture, constitution, and master table of results across 29 open problems.
+
 **Authors:** `mizopl` (Independent Researcher), `Claude` (Anthropic), and `Gemini` (Google DeepMind / Antigravity)  
 **Zenodo Preprint (DOI):** [`https://zenodo.org/records/23468033`](https://zenodo.org/records/23468033) (`10.5281/zenodo.23468033`)  
 **Preprint PDF:** [`Lychrel_Preprint_2026.pdf`](Lychrel_Preprint_2026.pdf) | **LaTeX Source:** [`Lychrel_Preprint_2026.tex`](Lychrel_Preprint_2026.tex)
