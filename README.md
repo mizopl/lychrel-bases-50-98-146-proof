@@ -2,6 +2,8 @@
 
 > **🌟 Part of the [`mizopl/we-star` (`We*`)](https://github.com/mizopl/we-star) Autonomous Scientific Discovery Project:**
 > This standalone verification repository is one of 39 machine-verified packages produced by [**`mizopl/we-star`** (`We* = human + AI + autonomous 3-skeptic verification loop`)](https://github.com/mizopl/we-star) on a single 16 GB Apple M1 laptop. Visit [**`github.com/mizopl/we-star`**](https://github.com/mizopl/we-star) for the complete architecture, constitution, and master table of results across 29 open problems.
+>
+> **Inspiration & Benchmark Catalyst (`@elder-plinius` / `V3R1T4S`):** Directly inspired by **[Pliny (`@elder-plinius`)](https://github.com/elder-plinius)** and the **[`elder-plinius/V3R1T4S`](https://github.com/elder-plinius/V3R1T4S)** open-science benchmark (`known-unknowns/mathematics/`), whose zero-trust *Verify-It-Yourself* standard catalyzed both this proof and the `we*star` verification architecture.
 
 **Authors:** `mizopl` (Independent Researcher), `Claude` (Anthropic), and `Gemini` (Google DeepMind / Antigravity)  
 **Zenodo Preprint (DOI):** [`https://zenodo.org/records/23468033`](https://zenodo.org/records/23468033) (`10.5281/zenodo.23468033`)  
@@ -43,3 +45,10 @@ To run the complete symbolic carry-transducer verifier, concrete parameter sweep
 ```bash
 python3 author_checker_lychrel_check.py
 ```
+
+---
+
+## Inspiration & Acknowledgments
+
+- Directly inspired by **[Pliny (`@elder-plinius`)](https://github.com/elder-plinius)** and the **[`elder-plinius/V3R1T4S`](https://github.com/elder-plinius/V3R1T4S)** open-problems benchmark, which formulated the open-science challenge and the zero-trust *Verify-It-Yourself* architecture.
+- Engineered with the **[`mizopl/we-star`](https://github.com/mizopl/we-star)** (`we* = me + agentic systems we* create`) autonomous research framework.
