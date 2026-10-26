@@ -11,7 +11,7 @@
 
 ## Abstract
 
-A **Lychrel number** in base $b \ge 2$ is a positive integer whose orbit under the iterative reverse-and-add map $F_b(n) = n + \operatorname{Rev}_b(n)$ never contains a base-$b$ palindrome. Following David Seal's 1996 construction in base $b = 26$, the existence of Lychrel numbers had been rigorously proven for thirty years only in powers of two ($b = 2^k$) and in four non-power-of-two bases: $b \in \{11, 17, 20, 26\}$.
+A **Lychrel number** in base $b \ge 2$ is a positive integer whose orbit under the iterative reverse-and-add map $F_b(n) = n + \mathrm{Rev}_b(n)$ never contains a base-$b$ palindrome. Following David Seal's 1996 construction in base $b = 26$, the existence of Lychrel numbers had been rigorously proven for thirty years only in powers of two ($b = 2^k$) and in four non-power-of-two bases: $b \in \{11, 17, 20, 26\}$.
 
 Using the **Computer Lazy Sunday Solver (`CLSS`)** compositional seam-surgery framework on a single consumer office computer (10-core CPU, 16 GB RAM), we prove the existence of Lychrel numbers in **three new non-power-of-two bases**:
 - **$b = 50 = 2 \cdot 5^2$** ([`lychrel_base50_certificate.json`](lychrel_base50_certificate.json), Period-4 template family $T_1(m), T_2(m), T_3(m), T_4(m)$ with $|L_0|=|R_0|=36$, $|M_0|=8$, $82$-digit start integer $n_0 = T_1(1)$),
@@ -24,7 +24,7 @@ We also provide the baseline reproduction of David Seal's 1996 construction in b
 
 ## Summary of Proven Non-Power-of-Two Lychrel Bases
 
-| Base $b$ | Prime Factorization | Period $p$ | Outer Length $\ell$ | Inner Core $\|M_0\|, \|M_2\|$ | Start $\|T_1(1)\|$ (base-$b$ digits) | Reference / Status |
+| Base $b$ | Prime Factorization | Period $p$ | Outer Length $\ell$ | Inner Core $\lvert M_0\rvert, \lvert M_2\rvert$ | Start $\lvert T_1(1)\rvert$ (base-$b$ digits) | Reference / Status |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
 | $b = 11$ | $11$ | $2$ | — | — | — | Classical (pre-1996) |
 | $b = 17$ | $17$ | $3$ | — | — | — | Classical (pre-1996) |
